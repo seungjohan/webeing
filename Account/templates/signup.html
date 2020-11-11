@@ -8,7 +8,6 @@
 <link rel="stylesheet" href = "{% static 'css/signup.css' %}" />
 
 <style type = "text/css">
-    #green {color: #00be68}
     #fontsize15 {
         font-size: 150%;
         font-weight: bold;
@@ -26,36 +25,31 @@
 
 <div class = "box-container">
 
-
     <div class = "signup">
-        <p id = "fontsize2">회원가입</p>
+        <p id="fontsize2">회원가입</p>
     </div>
 
-    <div class = "customer">
+    <div class = "user">
 
-        <div class = "incontainer">
+        <div class="customer">
 
             <a href="{% url 'signup_customer' %}">
 
                 <div class = "topcard">
                     <img src = "{% static '/img/customer.png' %}" style = "width : 300px;" alt="Center image">
                 </div>
-
+    
                 <div class = "bottomcard" id = "fontsize15" style="color:black">
                     WEBEING 에서
                     <br>
                     상품을 <span style="color:#2a6049">구매할</span> 고객님
-
+    
                 </div>
             </a>
 
         </div>
 
-    </div>
-
-    <div class = "seller">
-
-        <div class = "incontainer">
+        <div class="seller">
 
             <a href = "{% url 'signup_seller' %}"> 
 
@@ -76,7 +70,7 @@
 
     <div class = "gologin">
         <span style = "margin-right: 20px;">이미 WEBEING 회원이신가요?</span>
-        <span id = "green">
+        <span>
             <a href = "{% url 'login' %}" style="color:#2a6049; font-weight:bold">로그인 하러가기</a>
         </span>
     </div>
