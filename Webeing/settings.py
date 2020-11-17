@@ -24,9 +24,8 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '@g4xkdpz%phq1#4&+ntb=r@p^0f)zyfc&#m1u6depeiuza)b8o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['webeingfruits-env.eba-42nue4kn.us-west-2.elasticbeanstalk.com', 'www.webeing.site'] 
+DEBUG = True
+ALLOWED_HOSTS = ['webeingfruits-env.eba-42nue4kn.us-west-2.elasticbeanstalk.com', 'www.webeing.site','127.0.0.1'] 
 
 
 # Application definition
@@ -134,10 +133,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-    '/home/root/djangoApp/static/',
+    os.path.join(BASE_DIR, "static")
 ]
 
 
