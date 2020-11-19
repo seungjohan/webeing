@@ -2,6 +2,10 @@
 
 Webeing is a platform to provide food and other stuff which is closed with the expired day with the low prices So We can save the Earth, too.
 
+<a title="insta" href="https://www.instagram.com/we_being/">
+<a title="facebook" href="https://www.facebook.com/We-being-100435421763637">
+<a title="kakaotalk" href="http://pf.kakao.com/_sSYyxb">
+
 ## Contributor
 - Likelion in Chungang University
 
