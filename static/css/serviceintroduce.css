@@ -21,6 +21,7 @@
 
     flex-direction: column;
     align-content: center;
+    width: 100%;
 
 }
 
@@ -61,24 +62,8 @@
 }
 
 
-.service1 {
-    grid-area: service1;
+.service{
     background-color:#F1FAE9; 
-}
-
-.service2 {
-    grid-area: service2;
-    background-color:#F1FAE9;
-}
-
-.service3 {
-    grid-area: service3;
-    background-color:#F1FAE9;
-}
-
-.service4 {
-    grid-area: service4;
-    background-color:#F1FAE9;
 }
 
 .gridfooter {
