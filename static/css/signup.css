@@ -1,0 +1,32 @@
+.box-container {
+	display: flex;
+
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.signup {
+	text-align: center;
+	font-size: 150%;
+    font-weight: bold;
+}
+.user {
+	display: flex;
+
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: center;
+    
+    margin: 3rem 0 3rem 0;
+}
+.customer{
+    margin-right: 10rem;
+}
+.gologin{
+    text-align:center;
+}
+.bottomcard{
+    color: black;
+    text-align:center;
+}
