@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     'jquery',
     'mathfilters',
 
+    
+
 ]
 
 MIDDLEWARE = [
