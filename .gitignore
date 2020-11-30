@@ -119,7 +119,7 @@ dmypy.json
 
 .DS_Store
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+#deploy and seo stuff
+.elasticbeanstalk/
+robots.txt
+sitemap.xml
