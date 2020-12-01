@@ -53,11 +53,7 @@ INSTALLED_APPS = [
     'mathfilters',
 
     #seo-sitemap
-<<<<<<< HEAD
-    'django.contrib.sites', 
-=======
     'django.contrib.sites',   
->>>>>>> b75d74ed49aa4b0c425669f9536ec0104a429051
     'django.contrib.sitemaps',
 
 ]
@@ -159,10 +155,6 @@ CART_ID = 'cart_in_session'
 IAMPORT_KEY = '3723237362087479'
 IAMPORT_SECRET = 'pr8mUDWipaEHur49I71sAMmBOQ9KgbEFCM2wpYPP8txDUBNDIO5jArUpi39yfOeRAgo0fdQnHn1CZOfI'
 
-<<<<<<< HEAD
-# sitemap
-=======
 
 #seo-sitemap
->>>>>>> b75d74ed49aa4b0c425669f9536ec0104a429051
 SITE_ID = 1
