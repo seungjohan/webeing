@@ -53,6 +53,10 @@ INSTALLED_APPS = [
     'jquery',
     'mathfilters',
 
+    #seo-sitemap
+    'django.contrib.sites',   
+    'django.contrib.sitemaps',
+
 ]
 
 MIDDLEWARE = [
@@ -151,3 +155,7 @@ CART_ID = 'cart_in_session'
 # IAMPORT [CHANGYU's KEYVALUE]
 IAMPORT_KEY = '3723237362087479'
 IAMPORT_SECRET = 'pr8mUDWipaEHur49I71sAMmBOQ9KgbEFCM2wpYPP8txDUBNDIO5jArUpi39yfOeRAgo0fdQnHn1CZOfI'
+
+
+#seo-sitemap
+SITE_ID = 1
