@@ -123,3 +123,4 @@ dmypy.json
 .elasticbeanstalk/
 robots.txt
 sitemap.xml
+rss.xml

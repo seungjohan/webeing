@@ -25,8 +25,7 @@ SECRET_KEY = '@g4xkdpz%phq1#4&+ntb=r@p^0f)zyfc&#m1u6depeiuza)b8o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = [] 
+ALLOWED_HOSTS = ['webeingfruits-env.eba-42nue4kn.us-west-2.elasticbeanstalk.com', 'www.webeing.site','127.0.0.1'] 
 
 
 # Application definition
@@ -142,7 +141,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # for Custom_user
