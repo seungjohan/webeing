@@ -19,8 +19,8 @@ class StaticViewSitemap(Sitemap):
                 # 'shop:mmonlightfruits',
                 # 'shop:sweetmacaroon',
                 # 'shop:myhousesidedishes',
-                'shop:serviceintroduce',
-                'shop:envigoods',
+                # 'shop:serviceintroduce',
+                # 'shop:envigoods',
 
                 # #Account
                 # 'Account:tos_seller_use',
