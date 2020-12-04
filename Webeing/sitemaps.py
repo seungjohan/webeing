@@ -6,7 +6,8 @@ class StaticViewSitemap(Sitemap):
     priority = 0.64
     changefreq = 'weekly' 
     def items(self): 
-        return [ 
+        return [
+
                 # '',
                 #shop
                 # 'shop:fruitvegetable',
@@ -18,8 +19,8 @@ class StaticViewSitemap(Sitemap):
                 # 'shop:mmonlightfruits',
                 # 'shop:sweetmacaroon',
                 # 'shop:myhousesidedishes',
-                'shop:serviceintroduce',
-                'shop:envigoods',
+                # 'shop:serviceintroduce',
+                # 'shop:envigoods',
 
                 #Account
                 # 'Account:tos_seller_use',
@@ -41,4 +42,3 @@ class StaticViewSitemap(Sitemap):
         
     def location(self, item): 
         return reverse(item)
-
