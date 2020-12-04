@@ -21,10 +21,11 @@ urlpatterns = [
     path('coupon/',include('coupon.urls')),
     path('order/',include('order.urls')),
 
-    #seo-robots.txt, sitemap
+    #seo-robots.txt, sitemap, rss
     path('robots.txt/', TemplateView.as_view(template_name="robots.txt", 
         content_type='text/plain')),
     path('sitemap.xml/', sitemap, {'sitemaps': sitemaps}, name='sitemap'),
+    # path('rss.xml/', )
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
